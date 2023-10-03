@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+} 
+
+.container {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.blog-logo {
+    position: relative;
+}
+
+.blog-logo span{
+    position: absolute;
+    top: 40px;
+    left: 35%;
+    transform: translateX(35%);
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    display: block;
+    color: #c8a97e;
+    z-index: -1;
+}
+.blog-logo h2 {
+    position: absolute;
+    top: 70px;
+    display: block;
+    font-size: 25px;
+    font-weight: 900;
+    color: #333;
+    left: 27%;
+    transform: translateX(27%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.blogs-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    flex-wrap: wrap;
+}
+
+.blogcol4 {
+    width: 180px;
+    height: 250px;
+    border: 1px solid black transparent;
+}
+
+
+.blog-image img {
+
+    width: 178px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blog-content p {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.ReadMore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ReadMe a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7px;
+    text-decoration: none;
+    color: black; 
+}
+
+
+.comment span  {
+    font-size: 12px;
+    color: gray
+}
